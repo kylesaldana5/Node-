@@ -1,0 +1,16 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dice-roll/bin/rollDice",
+  "bin": {
+    "rollDice": "dice-roll/bin/rollDice"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node dice-roll/bin/rollDice"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
