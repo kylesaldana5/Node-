@@ -1,0 +1,16 @@
+{
+  "name": "versions",
+  "version": "1.0.0",
+  "description": "Create a JavaScript file to act as a Node.js program named `node-version.js`. The file\r should be similar if not exactly the same as the previous exercise. However,\r run `nvm use` and change the Node.js version and make sure it works correctly in\r multiple versions.",
+  "main": "",
+  "bin": {
+    "node-ver": "node-version.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node-version.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
