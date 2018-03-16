@@ -22,12 +22,33 @@ db.serialize(function() {
     
     employeeArray.forEach(({id, firstName, lastName, jobTitle, address}) =>{
         db.run(`INSERT into employees(id, firstName, lastName, jobTitle, address)
-        VALUES(${id}, '${firstName}', '${lastName}', '${jobTitle}', '${address}')`);
+        VALUES(${id}, '${firstName}', '${lastName}', '${jobTitle}', '${address}')`, function(err, data){
+            if (err) throw err;
+   
+        });
     });
+    
+    // Write a statement to query the database and console.log() all employee records.
+    db.all('SELECT * FROM employees', function (err, rows) {
+        if (err) throw err;
+        console.log('employees',rows );
+        
+    })
+
+    // Write a statement to query the database and console.log() each employees jobTitle
+    db.all('SELECT jobTitle FROM employees ', function (err, title) {
+        if (err) throw err;
+        console.log('title', title );
+    })
+        
+    // ite a statement to query the database and console.log() each employees firstName, lastName and address only
+    db.all('SELECT firstName, lastName, address FROM employees', function (err, data) {
+        if(err) throw err;
+        console.log('data',data );
+    })
+        
 }); 
     
-// Write a statement to query the database and console.log() all employee records.
-
 
 
 
