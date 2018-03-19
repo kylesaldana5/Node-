@@ -1,0 +1,17 @@
+{
+  "name": "sq-queries2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:reset": "node index.js",
+    "start": "nodemon index.js",
+    "test": "nodemon --exec \"mocha --recursive\" -R list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  }
+}
