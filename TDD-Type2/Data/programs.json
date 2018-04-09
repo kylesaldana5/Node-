@@ -1,0 +1,72 @@
+[
+    {
+        "no_of_seats": 2,
+        "instructor_name": "Meta",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Product Assurance Engineer"
+    },
+    {
+        "no_of_seats": 3,
+        "instructor_name": "Grayce",
+        "start_date": "2018-3-30",
+        "end_date": "Invalid Date",
+        "course_category": "National Accounts Officer"
+    },
+    {
+        "no_of_seats": 9,
+        "instructor_name": "Lilian",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Product Data Supervisor"
+    },
+    {
+        "no_of_seats": 1,
+        "instructor_name": "Nicole",
+        "start_date": "2018-3-30",
+        "end_date": "Invalid Date",
+        "course_category": "Human Integration Supervisor"
+    },
+    {
+        "no_of_seats": 5,
+        "instructor_name": "Adrienne",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Legacy Usability Manager"
+    },
+    {
+        "no_of_seats": 4,
+        "instructor_name": "Ayla",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Human Response Orchestrator"
+    },
+    {
+        "no_of_seats": 9,
+        "instructor_name": "Gail",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Global Accountability Analyst"
+    },
+    {
+        "no_of_seats": 9,
+        "instructor_name": "Jayne",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Dynamic Marketing Consultant"
+    },
+    {
+        "no_of_seats": 9,
+        "instructor_name": "Mathew",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "Customer Branding Executive"
+    },
+    {
+        "no_of_seats": 9,
+        "instructor_name": "Steve",
+        "start_date": "2018-3-29",
+        "end_date": "Invalid Date",
+        "course_category": "District Program Manager"
+    }
+]
