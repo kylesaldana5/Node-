@@ -1,0 +1,16 @@
+{
+    "tools": [
+        {
+            "name": "Shovel",
+            "type": "building"
+        },
+        {
+            "name": "Bucket",
+            "type": "building"
+        },
+        {
+            "name": "Shell Star",
+            "type": "decoration" 
+        }
+    ]
+}

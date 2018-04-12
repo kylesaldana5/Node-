@@ -1,0 +1,16 @@
+{
+    "lifeguards": [
+        {
+            "beach_id": 1,
+            "name": "Tammy",
+            "location": "Florida",
+            "rank": 10
+        },
+        {
+            "beach_id": 2,
+            "name": "Donna",
+            "location": "California",
+            "rank": 8
+        }
+    ]
+}

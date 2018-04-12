@@ -1,0 +1,22 @@
+{
+    "sandcastles": [
+        {
+            "tool_id": 1,
+            "beach_id": 1,            
+            "name": "Tilted Towers",
+            "building_score": 10
+        },
+        {
+            "tool_id": 1,     
+            "beach_id": 2,            
+            "name": "Lucky Landing",
+            "building_score": 10
+        },
+        {
+            "tool_id": 3,      
+            "beach_id": 3,      
+            "name": "Haunted Hills",
+            "building_score": 6
+        }
+    ]
+}
