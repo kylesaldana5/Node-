@@ -1,0 +1,13 @@
+html
+    head
+        meta(charset="utf-8")
+        title "pug exercise"
+
+    body
+        h1 Inventory 
+
+        //- run JS whenever you want
+        ul
+            each arr in array 
+                li #{arr.name}
+                li #{arr.price}
